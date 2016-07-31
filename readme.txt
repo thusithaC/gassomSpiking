@@ -1,5 +1,20 @@
-Spiking GASSOM and tempetron based classification implimentation 
+Spiking GASSOM and tempetron based classification implementation 
+tnc<at>connect<dot>ust<dot>hk
+Publication : http://arxiv.org/abs/1604.04327 <temporary link> Published in BIOROB 2016, held in Singapore. 
+Free to be used in Academic work. 
 
+Please note that this is a crude version of research code, and not intended to be used as a blackbox.  
+
+Required Libraries
+	1) Armidillo -> http://arma.sourceforge.net/
+	2) Matlab engine
+	3) Visual studio 2012 
+Set up the correct paths for finding the headers and linked libraries. Should be straightforward based on the values I used for my PC. 
+
+Samples and essential files neeeded to run the code:
+	The required data files and matlab snippets are in a dropbox folder. It can be downloaded from -> https://www.dropbox.com/sh/avhshvhkk0kc1hl/AAAR6Jai4FUDNk-s3KdAS7-pa?dl=0
+	You will have to point to the folder location in the main() function of the spiking_main.cpp. 
+		
 The code can do the following. 
 	1) Learn a representation from an input event stream (from a DVS sensor) using the event based GASSOM framework
 	2) Used a learn set of GASSOM feature detectors to encode an event stream from a DVS sensor   
